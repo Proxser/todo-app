@@ -1,0 +1,33 @@
+﻿<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+	<title>Приложение "Список дел"</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+	<main id="app">
+		<header>
+			<h1>Список дел</h1>
+		</header>
+
+		<ul id="todo-list">
+			<li class="todo-item">
+				<input class="checkbox" type="checkbox">
+				<label class="title">Изучить JavaScript</label>
+				<input class="textfield" type="text">
+				<button class="edit">Изменить</button>
+				<button class="delete">Удалить</button>
+			</li>
+		</ul>
+
+		<form id="todo-form">
+			<input id="add-input" type="text">
+			<button id="add-button" type="submit">Добавить</button>
+		</form>
+	</main>
+
+	<script type="text/javascript" src="js/app.js"></script>
+</body>
+</html>
