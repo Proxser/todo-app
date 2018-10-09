@@ -9,10 +9,7 @@
         {
             children.forEach( child => {
 
-                if ( typeof child === 'string' )
-                {
-                    child = document.createTextNode( child );
-                }
+                if ( typeof child === 'string' ) child = document.createTextNode( child );
 
                 element.appendChild( child );
 
@@ -104,4 +101,5 @@
     }
     
     main();
+    
 } )();
